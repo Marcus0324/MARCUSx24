@@ -1,0 +1,71 @@
+body   {
+	background-image: url(SchoolBackGround.jpg);
+	background-repeat: repeat-y;
+       }
+
+ nav   {
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       background-color:lightgray;
+ }
+ nav a {
+        text-decoration:none;
+        display: block;
+        padding: 15px 25px;
+        text-align: center;
+        background-color: lightgray;
+        color: #000000;
+        margin: 0;
+        font-family: sans-serif;
+
+       }
+
+nav a:hover {
+        background-color: #000000;
+        color: #ffffff;
+       }
+
+h1     {
+       text-align: center;
+       background-color: #000000;
+       color: whitesmoke;
+       font-family: cursive;
+       }
+
+div.a  {
+       text-align: center;
+       }
+
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:burlywood;
+  margin: auto;
+}
+
+p{
+text-align: center; 
+background-color:burlywood;
+}
+
+table{
+  width: 100%;
+
+}
+#bodya{
+       background-image: url(images/Background.jpg);
+       background-repeat: repeat-y;
+}
+#h11{    
+       text-align: center;
+       background-color: burlywood;
+       color: #000000;
+       font-family: cursive;
+}
+#par{
+       text-align: center; 
+       background-color:black;
+       color: white;
+       font-family: cursive;
+}
